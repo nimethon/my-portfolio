@@ -4,6 +4,7 @@ import {FaLinkedin} from "react-icons/fa"
 import {FaGithub} from "react-icons/fa"
 import {FaTwitterSquare} from "react-icons/fa"
 import {FaInstagram} from "react-icons/fa"
+import { FaFacebookSquare } from "react-icons/fa"
 
 const Navbar = () => {
     return (
@@ -12,9 +13,10 @@ const Navbar = () => {
                 <a href=""><img className="mx-1 w-4/12" src={logo} alt="Methon" /></a>
             </div>
             <div className="m-8 flex item-center justify-center gap-4 text-2xl">
-                <a href=""><FaLinkedin /></a>
-                <a href=""><FaGithub /></a>
-                <a href=""><FaTwitterSquare /></a>
+                <a href="https://linkedin.com/in/methon"><FaLinkedin /></a>
+                <a href="https://github.com/nimethon"><FaGithub /></a>
+                <a href="https://x.com/Methon_"><FaTwitterSquare /></a>
+                <a href="https://www.facebook.com/nimethon/"><FaFacebookSquare /></a>
                 <a href=""><FaInstagram /></a>
             </div>
         </nav>
